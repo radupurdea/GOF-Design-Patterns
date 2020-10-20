@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.xproj", "{04786CB7-7E24-4AF4-9764-D32191D0DEB2}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FactoryMethodAlternative", "src\FactoryMethodAlternative\FactoryMethodAlternative.xproj", "{C44F8EDB-2D01-4452-B51D-36594363D06F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "FactoryMethodCombined", "src\FactoryMethodCombined\FactoryMethodCombined.xproj", "{E977196C-09E8-4B4A-8023-6E5D4E123010}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,21 @@ Global
 		{04786CB7-7E24-4AF4-9764-D32191D0DEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04786CB7-7E24-4AF4-9764-D32191D0DEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04786CB7-7E24-4AF4-9764-D32191D0DEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44F8EDB-2D01-4452-B51D-36594363D06F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44F8EDB-2D01-4452-B51D-36594363D06F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44F8EDB-2D01-4452-B51D-36594363D06F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44F8EDB-2D01-4452-B51D-36594363D06F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E977196C-09E8-4B4A-8023-6E5D4E123010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E977196C-09E8-4B4A-8023-6E5D4E123010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E977196C-09E8-4B4A-8023-6E5D4E123010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E977196C-09E8-4B4A-8023-6E5D4E123010}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{04786CB7-7E24-4AF4-9764-D32191D0DEB2} = {E6E9D971-956D-4BEF-939F-7A03E8641B20}
+		{C44F8EDB-2D01-4452-B51D-36594363D06F} = {E6E9D971-956D-4BEF-939F-7A03E8641B20}
+		{E977196C-09E8-4B4A-8023-6E5D4E123010} = {E6E9D971-956D-4BEF-939F-7A03E8641B20}
 	EndGlobalSection
 EndGlobal

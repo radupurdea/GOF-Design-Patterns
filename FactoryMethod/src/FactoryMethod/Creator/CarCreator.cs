@@ -4,7 +4,7 @@ namespace FactoryMethod
 {
     public abstract class CarCreator
     {
-        protected abstract Car CreateCar();
+        protected abstract Car CreateCar(); // The Factory Method
 
         public void MakeCar()
         {
